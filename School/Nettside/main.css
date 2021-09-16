@@ -15,9 +15,11 @@ p {
 }
 
 header {
-    background-image: url(https://wallpaperset.com/w/full/4/e/5/207348.jpg);
+    background-image: url(./img/bright-stars-in-the-sky-over-the-hills.jpg);
     height: 8em;
     padding: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box-grid {
@@ -50,6 +52,11 @@ header {
     width: 17em;
     height: 17em;
     margin: 1em;
+}
+
+.hehebottom {
+    background-color: darkslategray;
+    padding: 2em;
 }
 
 /* Programmering */
