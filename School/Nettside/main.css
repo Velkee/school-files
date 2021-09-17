@@ -47,6 +47,7 @@ p {
 
 .lemontext {
     margin: 2em;
+    padding: 1em;
     background-color: darkslategray;
     height: 200px;
     text-decoration: none;
@@ -56,4 +57,10 @@ p {
 .lemontext-h {
     padding: 1em;
     color: white;
+}
+
+.plaintext {
+    margin: 2em;
+    padding: 1em;
+    background-color: darkslategray;
 }
