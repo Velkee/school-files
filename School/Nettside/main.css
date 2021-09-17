@@ -14,33 +14,6 @@ p {
     margin: 0cm;
 }
 
-header {
-    background-image: url(./img/bright-stars-in-the-sky-over-the-hills.jpg);
-    height: 8em;
-    padding: 1em;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.box-grid {
-    display: grid; 
-    grid-template-columns: 15em 15em 15em ; 
-    grid-template-rows: 15em 15em 15em; 
-    gap: 5em 5em;
-}
-
-.box {
-    background-color: darkslategray;
-    width: 15em;
-    height: 15em;
-    margin: 2em;
-    padding: 1em;
-    transition-duration: 0.2s;
-    text-align: center;
-    color: white;
-    text-decoration: transparent;
-}
-
 .center {
     display: block;
     margin-left: auto;
@@ -48,18 +21,10 @@ header {
     height: 100%;
 }
 
-.box:hover{
-    width: 17em;
-    height: 17em;
-    margin: 1em;
-}
-
 .hehebottom {
     background-color: darkslategray;
     padding: 2em;
 }
-
-/* Programmering */
 
 .leftalign {
     float: left;
