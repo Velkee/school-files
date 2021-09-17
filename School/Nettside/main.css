@@ -49,8 +49,11 @@ p {
     margin: 2em;
     background-color: darkslategray;
     height: 200px;
+    text-decoration: none;
+    color: lightblue;
 }
 
 .lemontext-h {
     padding: 1em;
+    color: white;
 }
