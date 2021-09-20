@@ -1,5 +1,5 @@
 .box-grid {
-    display: grid; 
+    display: grid;
     grid-template-columns: 15em 15em 15em ; 
     grid-template-rows: 15em 15em 15em; 
     gap: 5em 5em;

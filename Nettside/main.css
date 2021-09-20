@@ -37,21 +37,26 @@ p {
 .home:hover {
     width: 96px;
     height: 96px;
-    margin: 1en;
 }
 
 .lemontext {
     margin: 2em;
-    padding: 1em;
     background-color: darkslategray;
     height: 200px;
-    text-decoration: none;
-    color: lightblue;
+    transition-duration: 0.2s;
+}
+
+.lemontext:hover {
+    height: 13em;
+    margin-top: 2em;
+    padding: 2em;
+    padding-left: 0em;
 }
 
 .lemontext-h {
     padding: 1em;
-    color: white;
+    color: lightblue;
+    text-decoration: none;
 }
 
 .plaintext {
