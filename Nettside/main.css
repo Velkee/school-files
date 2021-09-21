@@ -43,20 +43,16 @@ p {
     margin: 2em;
     background-color: darkslategray;
     height: 200px;
-    transition-duration: 0.2s;
 }
 
-.lemontext:hover {
-    height: 13em;
-    margin-top: 2em;
-    padding: 2em;
-    padding-left: 0em;
-}
-
-.lemontext-h {
+.lemontext > a {
     padding: 1em;
     color: lightblue;
     text-decoration: none;
+}
+
+.lemontext > p {
+    padding: 1em;
 }
 
 .plaintext {
