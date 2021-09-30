@@ -56,8 +56,17 @@ p {
     background-color: darkslategray;
 }
 
-@media (max-width: 1000px) {
-    .banana {
+.banana > img {
+    left: 60em;
+    width: 40em;
+    position: absolute;
+    display: inline;
+}
+
+@media screen and (max-width: 1000px) {
+    .banana > img {
         display: none;
+        width: 0px;
+        height: 0px;
     }
 }
