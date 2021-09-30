@@ -1,8 +1,8 @@
 .box-grid {
     display: grid;
-    grid-template-columns: 15em 15em 15em ; 
+    grid-template-columns: 15em 15em 15em; 
     grid-template-rows: 15em 15em 15em; 
-    gap: 5em 5em;
+    grid-gap: 5em 5em;
 }
 
 .box {
@@ -17,8 +17,17 @@
     text-decoration: transparent;
 }
 
-.box:hover{
+.box:hover {
     width: 17em;
     height: 17em;
     margin: 1em;
+}
+
+@media screen and (max-width: 1000px) {
+    .box-grid {
+        display: grid;
+        grid-template-columns: 15em 15em;
+        grid-template-rows: 15em 15em;
+        grid-gap: 5em 5em;
+    }
 }

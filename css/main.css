@@ -55,3 +55,9 @@ p {
     padding: 1em;
     background-color: darkslategray;
 }
+
+@media (max-width: 1000px) {
+    .banana {
+        display: none;
+    }
+}
