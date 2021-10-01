@@ -37,7 +37,8 @@ p {
 .lemontext {
     margin: 2em;
     background-color: darkslategray;
-    height: 200px;
+    min-height: 200px;
+    height: auto;
 }
 
 .lemontext > a {
