@@ -1,33 +1,36 @@
+/* This CSS sets up the basic grid */
 .box-grid {
-    display: grid;
-    grid-template-columns: 15em 15em 15em; 
-    grid-template-rows: 15em 15em 15em; 
-    grid-gap: 5em 5em;
+	display: grid;
+	grid-template-columns: 15em 15em 15em;
+	grid-template-rows: 15em 15em 15em;
+	grid-gap: 5em 5em;
 }
 
 .box {
-    background-color: darkslategray;
-    width: 15em;
-    height: 15em;
-    margin: 2em;
-    padding: 1em;
-    transition-duration: 0.2s;
-    text-align: center;
-    color: lightblue;
-    text-decoration: transparent;
+	background-color: darkslategray;
+	width: 15em;
+	height: 15em;
+	margin: 2em;
+	padding: 1em;
+	transition-duration: 0.2s;
+	text-align: center;
+	color: lightblue;
+	text-decoration: transparent;
 }
 
+/* Makes the boxes larger when hovered over, creating an expanding effect */
 .box:hover {
-    width: 17em;
-    height: 17em;
-    margin: 1em;
+	width: 17em;
+	height: 17em;
+	margin: 1em;
 }
 
+/* An attempt to make the grid work on phones, didn't work but now it doesn't take up too much space on smaller window sizes */
 @media screen and (max-width: 1000px) {
-    .box-grid {
-        display: grid;
-        grid-template-columns: 15em 15em;
-        grid-template-rows: 15em 15em;
-        grid-gap: 5em 5em;
-    }
+	.box-grid {
+		display: grid;
+		grid-template-columns: 15em 15em;
+		grid-template-rows: 15em 15em;
+		grid-gap: 5em 5em;
+	}
 }
