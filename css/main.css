@@ -29,15 +29,15 @@ p {
 
 /* Sets up my home button */
 .home {
-	padding: 1em;
-	width: 64px;
-	height: 64px;
-	transition-duration: 0.2s;
+	padding-top: 1em;
+	padding-left: 2em;
+	width: 86px;
+	height: 86px;
+	transition: all 0.2s ease-in-out;
 }
 
 .home:hover {
-	width: 96px;
-	height: 96px;
+	transform: scale(1.1);
 }
 
 /* Basic "text with image float" format */
@@ -63,20 +63,4 @@ p {
 	margin: 2em;
 	padding: 1em;
 	background-color: darkslategray;
-}
-
-/* The CSS that makes the banana go brrr */
-.banana > img {
-	left: 60em;
-	width: 40em;
-	position: absolute;
-	display: inline;
-}
-
-@media screen and (max-width: 1000px) {
-	.banana > img {
-		display: none;
-		width: 0px;
-		height: 0px;
-	}
 }
