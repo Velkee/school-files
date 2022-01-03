@@ -63,4 +63,6 @@ p {
 	margin: 2em;
 	padding: 1em;
 	background-color: darkslategray;
+	color: lightblue;
+	text-decoration: none;
 }
