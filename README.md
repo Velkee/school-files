@@ -1,3 +1,3 @@
-# school-files
+#school-files
 
-A collection of HTML and CSS code for school projects and such.
+A website for all the stuff I have made in school, version 2.0
