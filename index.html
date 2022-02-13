@@ -20,15 +20,15 @@
 					Konseptutvikling og Programering
 					<img id="KoP" src="./img/KoP.png" alt="" />
 					<script>
-						const element = document.getElementById('KoP');
+						const KoP = document.getElementById('KoP');
 
-						const original = element.src;
+						const KoP_original = KoP.src;
 
-						element.addEventListener('mouseover', function () {
+						KoP.addEventListener('mouseover', function () {
 							this.src = './img/KoP.gif';
 						});
-						element.addEventListener('mouseout', function () {
-							this.src = original;
+						KoP.addEventListener('mouseout', function () {
+							this.src = KoP_original;
 						});
 					</script>
 				</a>
@@ -44,7 +44,19 @@
 			<div class="grid_item">
 				<a href="">
 					Produksjon og Historiefortelling
-					<img src="./img/TF.png" alt="" />
+					<img id="PoH" src="./img/PoH.png" alt="" />
+					<script>
+						const PoH = document.getElementById('PoH');
+
+						const PoH_original = PoH.src;
+
+						PoH.addEventListener('mouseover', function () {
+							this.src = './img/PoH.gif';
+						});
+						PoH.addEventListener('mouseout', function () {
+							this.src = PoH_original;
+						});
+					</script>
 				</a>
 			</div>
 
