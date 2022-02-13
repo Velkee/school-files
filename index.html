@@ -18,7 +18,19 @@
 			<div class="grid_item">
 				<a href="">
 					Konseptutvikling og Programering
-					<img src="./img/KoP.gif" alt="">
+					<img id="KoP" src="./img/KoP.png" alt="" />
+					<script>
+						const element = document.getElementById('KoP');
+
+						const original = element.src;
+
+						element.addEventListener('mouseover', function () {
+							this.src = './img/KoP.gif';
+						});
+						element.addEventListener('mouseout', function () {
+							this.src = original;
+						});
+					</script>
 				</a>
 			</div>
 
